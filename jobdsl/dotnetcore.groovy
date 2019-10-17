@@ -7,6 +7,9 @@ job('dotnet core job dsl') {
         scm('* * * * *')
     }
     steps {
-        batchFile('dotnet restore dotnet build dotnet test')
+        batchFile('dotnet restore')
+        batchFile('dotnet build')
+        batchFile('dotnet test')
+        
     }
 }
