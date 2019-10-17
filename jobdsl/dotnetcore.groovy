@@ -5,6 +5,6 @@ job('dotnet core job dsl') {
     }
     
     steps {
-        batch('dotnet restore')
+        batchFile('dotnet restore')
     }
 }
