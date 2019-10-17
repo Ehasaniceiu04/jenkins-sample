@@ -5,6 +5,6 @@ job('dotnet core job dsl') {
     }
     
     steps {
-        shell("npm install")
+        bat('dotnet restore")
     }
 }
