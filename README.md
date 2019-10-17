@@ -1,2 +1,2 @@
-# jenkins-sample
-# jenkins-sample
+# CI/ CD pipeline with jenkins and docker
+
